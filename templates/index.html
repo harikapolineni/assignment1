@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='navbar.css') }}" type="text/css"/>
+    <link rel="stylesheet" href="{{ url_for('static', filename='about.css') }}" type="text/css"/>
+    <title>Navabr</title>
+</head>
+<body>
+    <!-- NAVBAR CODE -->
+    <nav>
+        <ul class = "menu">
+            <li><a class = "button" href = "{{ url_for('about') }}">About</a></li>
+            <li><a class = "button" href = "{{ url_for('skills') }}">Skills</a></li>
+            <li><a class = "button" href = "{{ url_for('education') }}">Education</a></li>
+            <li><a class = "button" href = "{{ url_for('project') }}">Projects</a></li>
+            <li><a class="button" href = "{{ url_for('add') }}">Add</a></li>
+
+        </ul>
+    </nav>
+
+    <!-- MAIN CODE -->
+    <div>
+        <h1 class = "name">Harika Polineni</h1>
+        <p class = "introduction">My name is Harika Polineni and I am from India, currently pursuing my masters in Computer science from Texas A&M Commerce.</p>
+    </div>
+</body>
+</html>

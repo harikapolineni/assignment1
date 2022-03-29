@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='navbar.css') }}" type="text/css"/>
+    <link rel="stylesheet" href="{{ url_for('static', filename='skills.css') }}" type="text/css"/>
+    <title>Skills</title>
+</head>
+<body>
+    <!-- NAVBAR CODE -->
+    <nav>
+        <ul class = "menu">
+            <li><a class = "button" href = "{{ url_for('about') }}">About</a></li>
+            <li><a class = "button" href = "{{ url_for('skills') }}">Skills</a></li>
+            <li><a class = "button" href = "{{ url_for('education') }}">Education</a></li>
+            <li><a class = "button" href = "{{ url_for('project') }}">Projects</a></li>
+            <li><a class="button" href = "{{ url_for('add') }}">Add</a></li>
+
+        </ul>
+    </nav>
+
+    <!-- MAIN CODE -->
+    <div>
+        <h1 class = "title">Skills</h1>
+        <p class = "language">HTML</p>
+        <p class = "language">Python</p>
+        <p class = "language">JavaScript</p>
+        <p class = "language">CSS</p>
+    </div>
+
+</body>
+</html>
