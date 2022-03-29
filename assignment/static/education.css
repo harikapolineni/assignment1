@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+}
+
+.title{
+    font-family: 'Courier New', monospace;
+    font-size: 5em;
+    background: -webkit-linear-gradient(#FF4E50, #F9D423);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.school{
+    font-family: 'Courier New', monospace;
+    font-size: 1.25em;
+    text-align: center;
+}
+
+.degree{
+    font-family: 'Courier New', monospace;
+    font-size: 1.25em;
+    text-align: center;
+}
+

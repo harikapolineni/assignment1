@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+}
+
+.title{
+    font-family: 'Courier New', monospace;
+    font-size: 5em;
+    background: -webkit-linear-gradient(#ff00CC, #333399);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+.form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.project-name{
+    font-family: 'Courier New', monospace;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.description{
+    font-family: 'Courier New', monospace;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.center{
+    text-align: center;  
+}
+.submit{
+    font-family: 'Courier New', monospace;
+    font-size: 2em;
+    text-align: center;
+    text-decoration: none;
+}
+
+.submit:hover{
+    color: #71C562;
+}
